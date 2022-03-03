@@ -1,0 +1,26 @@
+/*Selector de atributo*/
+[value]{
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+}
+
+
+
+/* [value~="cursocss.com"]{
+    background-color: yellow;
+} */
+/* sufijo */
+/* [value^="Aqui"]{
+    background-color: thistle;
+} */
+
+/* prefijo */
+/* [value$="cursocss.com"]{
+    background-color: yellow;
+} */
+
+/* global */
+[value*="cursocss.com"]{
+    background-color: yellow;
+}

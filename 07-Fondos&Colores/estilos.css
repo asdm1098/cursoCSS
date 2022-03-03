@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+.container{
+    margin: 50px auto;
+    width: 90%;
+    height: 500px;
+    background-image: linear-gradient(#000, rgba(255, 0, 0, 0.363)), url(img/sp.png);
+    /* background-color: slateblue; */
+    /* background-image: url('img/sp.png'); */
+    color: white;
+    text-align: center;
+    /* padding: 200px; */
+    border: 2px solid black;
+
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+    /* top-left-right-bottom-center */
+}
+
+.title{
+    /* font-size: 42px;
+    color: tomato ; */
+    /* background-color: black; */
+}

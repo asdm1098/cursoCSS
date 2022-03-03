@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .title{
+    background-color: yellow;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.btn{
+    display: inline-block;
+    background-color: tomato;
+    color: white;
+    width: 200px;
+    height: 200px;
+} */
+
+/* Practica Card CSS */
+body{
+    font-family: Arial;
+}
+/* .title{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.btn{
+    background-color: purple;
+    border-radius: 40px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+} */
+
+.card{
+    background-color: #15273F;
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px 25px;
+}
+.card__img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    border-radius: inherit;
+}
+
+.card__title{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.card__paragraph{
+    color: #99b0d4;
+}
+
+.card__cta{
+    background-color: white;
+    color: #15273F;
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 15px 0;
+    font-weight: bold;
+    border-radius: 5px;
+}

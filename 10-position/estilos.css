@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    margin: 40px auto;
+    border: 4px solid;
+}
+
+.element{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.relative{
+    background-color: steelblue;
+    position: relative;
+    /* top - right bottom left  */
+    left: 30px;
+    z-index: 100;
+}
+
+.absolute{
+    background-color: teal;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 200;
+
+}
+
+.fixed{
+    background-color: crimson;
+    position: fixed;
+    top: 80px;
+    z-index: 150;
+}
